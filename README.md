@@ -37,3 +37,9 @@ Basically it's an array of three scheduled scripts to be run from cron/systemd.
 - A device with Linux, BSD, MacOS to run the home-monitor scripts. I'm using ArchLinux on BananaPi, so be prepared to edit the scripts according to the platform of your choice.
 - A bunch of photo cameras, webcams, network IP cams or whatever device you have that allows picture to be taken from.
 - Some digital temperature sensors you might have lying around somewhere. I use Dallas DS18B20 via 1-wire interface and a cheap chinese USB device called Temper.
+
+## installation
+
+* Clone the repo 
+* Put the files where they need to be
+* Pray it works
