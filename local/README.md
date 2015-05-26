@@ -22,4 +22,4 @@ And do exactly the same for the other two timers. Debian based disto users might
 
 You might be curious where is the part responsible for taking photos from the webcam. It's right there in homemonitor shell script. :-) I also included the script I use for taking a picture from one of my cams (Logitech C210). No reason to include all of them since chances are you might never have the same setup I use.
 
-The source for temper USB device is also included. It's written in C and calibrated againt good old DS18B20 sensor to make that little device as accurate as possible.
+The source for temper USB device is also included. It's written in C and calibrated against good old DS18B20 sensor to make that little device as accurate as possible.
