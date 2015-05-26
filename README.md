@@ -33,7 +33,7 @@ If everything is setup and configured the right way, you might expect to see som
 
 Basically it's an array of three scheduled scripts to be run from cron/systemd.
 
-* The main script gets executed every 15 minutes
+* The main script gets executed every 15 minutes and captures pictures from the cameras, inserts temperatures into database table and gathers all the required information
 * The ping-check script is executed every hour and checks if network attached devices are alive around the house (routers, STB's, access points etc.)
 * The video-timelapse script runs every morning at 3AM, downloads yesterday's cam pics and makes mp4 video for each of your cams.
 
