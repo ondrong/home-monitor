@@ -26,6 +26,8 @@ If everything is setup and configured the right way, you might expect to see som
 
 ![main2](https://cloud.githubusercontent.com/assets/12605057/7812347/108cc800-03ba-11e5-83e9-014ae8205eca.jpg)
 
+![timelapse](https://cloud.githubusercontent.com/assets/12605057/7812493/541e0c04-03bb-11e5-9635-afdd67052452.jpg)
+
 ## how it works
 
 Basically it's an array of three scheduled scripts to be run from cron/systemd.
