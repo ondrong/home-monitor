@@ -18,10 +18,10 @@ You have already seen how it looks, so without further ado let's get to it.
 
 ## usage
 
-If you have your webhost running and accessible via http://your.host.net, you will URL's working:
+If you have your webhost running and accessible via http://your.host.net, you will have these URL's working:
 
-* Main Google based chart on /
+* Main Google Drive based charts on /
 * Home-monitor interface on /banana
 * Timelapse DVR on /timelapse
 
-Provided .htaccess allows only certain IP addresses to access these pages, so you might want to keep it that way to make sure nobody else is looking at your stuff ;-)
+Provided .htaccess files allow only certain IP addresses to access these pages, so you might want to keep it that way to make sure nobody else is looking at your stuff ;-)
