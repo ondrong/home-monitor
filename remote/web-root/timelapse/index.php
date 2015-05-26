@@ -4,9 +4,9 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
-<script src="http://vjs.zencdn.net/4.12/video.js"></script>
+<script src="jquery.min.js"></script>
+<link href="video-js.css" rel="stylesheet">
+<script src="video.js"></script>
 <style type="text/css">
 
 body {
