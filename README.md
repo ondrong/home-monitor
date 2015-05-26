@@ -60,4 +60,4 @@ If anyone is interested here's my current setup:
 
 * BananaPi runs the home-monitor scripts and has Logitech webcam and Temper connected to its USB ports
 * Raspberry Pi has Dallas DS18B20 1wire sensor connected via it's GPIO and also has Creative webcam
-* Bunch of different routers running Oleg/Gorgoyle/DD-WRT/OpenWRT/Tomato third-party firmwares installed on them. Full list can be found on [wiki](wiki) page.
+* Bunch of different routers running Oleg/Gorgoyle/DD-WRT/OpenWRT/Tomato third-party firmwares installed on them. Full list can be found on [wiki](https://github.com/gedasm/home-monitor/wiki) page.
