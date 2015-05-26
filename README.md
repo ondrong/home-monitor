@@ -15,7 +15,7 @@ And yes, I know user interface is both in english and some foreign language you 
 - draws neat temperature line charts of various periods of time (day, week, month)
 - performs a livelihood test on your network devices by pinging a defined array of IP's
 - shows your external IP (no need to use dyndns anymore)
-- displays some other useful information (from other tools from this GIT such as wifi-player)
+- displays some other useful information (from other tools from this git such as wifi-player)
 
 ## how it looks
 
