@@ -20,11 +20,11 @@ And yes, I know user interface is both in english and some foreign language you 
 
 If everything is setup and configured the right way, you might expect to see something along the lines of this (certain personal data has been redacted):
 
-![main1](https://cloud.githubusercontent.com/assets/12605057/7812277/9a17696e-03b9-11e5-9170-1628219e7f2b.png)
+![main1](https://cloud.githubusercontent.com/assets/12605057/7812346/10857b9a-03ba-11e5-8b6f-8e3b9cffd6af.jpg)
 
 ![banana_info](https://cloud.githubusercontent.com/assets/12605057/7808582/fade089c-039c-11e5-9d86-2cceef768348.jpg)
 
-![main2](https://cloud.githubusercontent.com/assets/12605057/7812278/9a1b8fa8-03b9-11e5-8d38-bf10a69bfe65.png)
+![main2](https://cloud.githubusercontent.com/assets/12605057/7812347/108cc800-03ba-11e5-83e9-014ae8205eca.jpg)
 
 ## how it works
 
