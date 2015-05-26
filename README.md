@@ -52,7 +52,7 @@ Basically it's an array of three scheduled scripts to be run from cron/systemd.
 * Put the files where they need to be
 * Pray it works
 
-Unfortunately I don't really have time nor willingness to provide step by step installation tutorial. I'm sure there are lots of smart and curious people who will use my code to build something even better and bigger. So go download/clone/fork home-monitor and have some fun with it!
+Unfortunately I don't really have time nor am I willing to provide step by step installation tutorial. However, I'm pretty sure there are lots of smart and curious people who will build something even better and bigger based upon my code. So go download/clone/fork *home-monitor* and have some fun with it!
 
 ## my setup
 
