@@ -1,0 +1,7 @@
+[Unit]
+Description=homemonitor
+Wants=homemonitor.timer
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/homemonitor
