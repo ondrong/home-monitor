@@ -60,4 +60,4 @@ If anyone is interested here's my current setup:
 
 * BananaPi runs the home-monitor scripts and has Logitech webcam and Temper connected to its USB ports
 * Raspberry Pi has Dallas DS18B20 1wire sensor connected via it's GPIO and also has Creative webcam
-* Bunch of different routers running Oleg/OpenWRT/Tomato firmware with a load of webcams attached (mainly Logitech)
+* Bunch of different routers running Oleg/Gorgoyle/DD-WRT/OpenWRT/Tomato firmware with a load of webcams attached (mainly Logitech)
