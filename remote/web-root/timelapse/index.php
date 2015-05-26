@@ -148,7 +148,7 @@ foreach($files[$i] as $file ) {
  }
 }
 
-${'newest_'.$i} = "http://mezon.puslapiai.lt/timelapse/video/cam".$i."/".end((array_values($pics[$i])));
+${'newest_'.$i} = "http://your.host.net/timelapse/video/cam".$i."/".end((array_values($pics[$i])));
 
 }
 
@@ -178,8 +178,8 @@ $counter=0;
   $data=substr($cam, strrpos($cam, '-')+1, -4);
   setlocale(LC_TIME, "lt_LT");
   $data2=strftime("%Y %B %e", strtotime($data));
-  if ($counter<$size) { echo"<option value='http://mezon.puslapiai.lt/timelapse/video/cam".$i."/".$cam. "?" . md5(uniqid(rand(), true))."'>".$data2."</option>"; }
-  else  { echo"<option value='http://mezon.puslapiai.lt/timelapse/video/cam".$i."/".$cam."?" . md5(uniqid(rand(), true))."' selected>".$data2."</option>"; } 
+  if ($counter<$size) { echo"<option value='http://your.host.net/timelapse/video/cam".$i."/".$cam. "?" . md5(uniqid(rand(), true))."'>".$data2."</option>"; }
+  else  { echo"<option value='http://your.host.net/timelapse/video/cam".$i."/".$cam."?" . md5(uniqid(rand(), true))."' selected>".$data2."</option>"; } 
  }
 echo '</select>';
 }
