@@ -10,6 +10,7 @@ And yes, I know user interface is both in english and some foreign language you 
 ## what it does
 
 - displays pictures from your webcams
+- provides full fledged DVR like system for all your cams
 - shows current temperature inside or outside your house
 - draws neat temperature line charts of various periods of time (day, week, month)
 - performs a livelihood test on your network devices by pinging a defined array of IP's
@@ -33,8 +34,8 @@ If everything is setup and configured the right way, you might expect to see som
 Basically it's an array of three scheduled scripts to be run from cron/systemd.
 
 * The main script gets executed every 15 minutes
-* The ping-check script is executed every hour
-* The video-timelapse script run every morning at 3AM
+* The ping-check script is executed every hour and checks if network attached devices are alive around the house (routers, STB's, access points etc.)
+* The video-timelapse script runs every morning at 3AM, downloads yesterday's cam pics and makes mp4 video for each of your cams.
 
 ## requirements
 
@@ -44,8 +45,19 @@ Basically it's an array of three scheduled scripts to be run from cron/systemd.
 - A bunch of photo cameras, webcams, network IP cams or whatever device you have that allows picture to be taken from.
 - Some digital temperature sensors you might have lying around somewhere. I use Dallas DS18B20 via 1-wire interface and a cheap chinese USB device called Temper.
 
+
 ## installation
 
 * Clone the repo 
 * Put the files where they need to be
 * Pray it works
+
+Unfortunately I don't really have time nor willingness to provide step by step installation tutorial. I'm sure there are lots of smart and curious people who will use my code to build something even better and bigger. So go download/clone/fork home-monitor and have some fun with it!
+
+## my setup
+
+If anyone is interested here's my current setup:
+
+* BananaPi runs the home-monitor scripts and has Logitech webcam and Temper connected to its USB ports
+* Raspberry Pi has Dallas DS18B20 1wire sensor connected via it's GPIO and also has Creative webcam
+* Bunch of different routers running Oleg/OpenWRT/Tomato firmware with a load of webcams attached (mainly Logitech)
