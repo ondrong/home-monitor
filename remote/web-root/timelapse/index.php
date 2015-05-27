@@ -4,9 +4,9 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
-<script src="jquery.min.js"></script>
-<link href="video-js.css" rel="stylesheet">
-<script src="video.js"></script>
+<script src="extras/jquery.min.js"></script>
+<link href="extras/video-js.css" rel="stylesheet">
+<script src="extras/video.js"></script>
 <style type="text/css">
 
 body {
