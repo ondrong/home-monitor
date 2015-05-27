@@ -21,6 +21,8 @@ mget *.jpg
 quit
 END_SCRIPT
 
+find -maxdepth 1 -name "cam*.jpg" -size -1k -exec rm {} \;
+
 for K in `seq 1 1 2`
 do
 
