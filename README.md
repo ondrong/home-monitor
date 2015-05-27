@@ -65,3 +65,7 @@ If anyone is interested here's my current setup:
 ***
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gedasm/home-monitor/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gedasm/home-monitor/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
