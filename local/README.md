@@ -1,5 +1,5 @@
 # local part of home-monitor
-A little surveillance tool for monitoring what is going around your house... or spying on your neighbor.
+The content of this directory must be installed locally on some linux device you have at home running 24/7. I use Banana Pi single board computer for this purpose.
 
 ## directory structure
 

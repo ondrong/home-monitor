@@ -1,6 +1,6 @@
 # web interface for home-monitor
 
-You have already seen how it looks, so without further ado let's get to it.
+You have already seen how it looks, so without further ado let's get to it. The content of this directory goes to your remote web hosting. Any web server should do really provided it supports PHP. However I use .htaccess files hence it is Apache for me.
 
 ## directory structure
 
