@@ -822,13 +822,6 @@ var change = function liveImage() {
 
 change_timer = setInterval (change, 2*60*1000);
 
-<<<<<<< HEAD
-=======
->>>>>>> parent of 44b3978... camera lapse effects added
->>>>>>> 1b31730... Revert "camera lapse effects added"
-
-=======
->>>>>>> origin/master
 </script>
 
 </body>
