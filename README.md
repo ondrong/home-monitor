@@ -10,6 +10,7 @@ And yes, I know user interface is both in english and some foreign language you 
 ## what it does
 
 - displays pictures from your webcams
+- allows you to rewind today's pictures
 - provides full fledged DVR like system for all your cams
 - shows current temperature inside or outside your house
 - draws neat temperature line charts of various periods of time (day, week, month)
@@ -26,6 +27,8 @@ If everything is setup and configured the right way, you might expect to see som
 ![banana_info](https://cloud.githubusercontent.com/assets/12605057/7808582/fade089c-039c-11e5-9d86-2cceef768348.jpg)
 
 ![main2](https://cloud.githubusercontent.com/assets/12605057/7812347/108cc800-03ba-11e5-83e9-014ae8205eca.jpg)
+
+![rewind](https://cloud.githubusercontent.com/assets/12605057/7990391/64ad42de-0af9-11e5-85a3-5de4f33a345f.jpg)
 
 ![timelapse](https://cloud.githubusercontent.com/assets/12605057/7812493/541e0c04-03bb-11e5-9635-afdd67052452.jpg)
 
@@ -45,6 +48,11 @@ Basically it's an array of three scheduled scripts to be run from cron/systemd.
 - A bunch of photo cameras, webcams, network IP cams or whatever device you have that allows picture to be taken from.
 - Some digital temperature sensors you might have lying around somewhere. I use Dallas DS18B20 via 1-wire interface and a cheap chinese USB device called Temper.
 
+## bundled stuff
+
+- jQuery javascript framework
+- Chartist javascript chart-library
+- mBox library for light-box effect
 
 ## installation
 
@@ -61,8 +69,4 @@ If anyone is interested here's my current setup:
 * BananaPi runs the home-monitor scripts and has Logitech webcam and Temper connected to its USB ports
 * Raspberry Pi has Dallas DS18B20 1wire sensor connected via it's GPIO and also has Creative webcam
 * Bunch of different routers running Oleg/Gorgoyle/DD-WRT/OpenWRT/Tomato third-party firmwares installed on them. Full list can be found on [wiki](https://github.com/gedasm/home-monitor/wiki) page.
-
-***
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gedasm/home-monitor/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
