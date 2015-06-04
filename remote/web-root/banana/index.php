@@ -769,7 +769,7 @@ $("img.secondary-cams")
 	  kamera.addClass("blur-off");
     };
     var timelapse = function rotateImage() {
-       kamera.attr("src",'http://mezon.puslapiai.lt/timelapse/archive/'+today+'/'+paveiksliukai[index]);
+       kamera.attr("src",'../timelapse/archive/'+today+'/'+paveiksliukai[index]);
        if (index == paveiksliukai.length-1) { index = 0; }
        else { index++; }
     };
