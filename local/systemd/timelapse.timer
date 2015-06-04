@@ -1,9 +1,0 @@
-[Unit]
-Description=Runs make_timelapse at 3am
-
-[Timer]
-OnCalendar=3:0
-Unit=timelapse.service
-
-[Install]
-WantedBy=multi-user.target

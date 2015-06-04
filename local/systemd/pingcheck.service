@@ -1,7 +1,0 @@
-[Unit]
-Description=pingcheck
-Wants=pingcheck.timer
-
-[Service]
-Type=oneshot
-ExecStart=/usr/local/bin/pingcheck
