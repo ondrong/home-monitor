@@ -741,6 +741,76 @@ $(".secondary").hide();
 });
 
 
+// uzvedus pele ant kameros, rodom jos laiko panorama 
+$("img.secondary-cams")
+  .mouseover(function() {
+    kamera = $(this);
+    kamera_original_src = kamera.attr("src");
+    kelinta_kamera=kamera.attr("rel");
+    paveiksliukai = [];
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1;
+    var yyyy = today.getFullYear();
+    if (dd<10) { dd= '0' + dd } 
+    if (mm<10) { mm= '0' + mm } 
+    today = yyyy+mm+dd;
+    $.getJSON('cam-history.php', {'date':today,'kamera':kelinta_kamera,password:'1'}, function(data) {
+       $.each(data, function(key, val) {
+         paveiksliukai.push(val);
+       });
+    });
+    index = 0
+	var grayout = function grayImage() {
+	  live_change_enabled = false;
+ 	  $("img.secondary-cams").not(this).removeClass("blur-off");
+	  $("img.secondary-cams").not(this).addClass("blur-on");
+	  kamera.removeClass("blur-on");
+	  kamera.addClass("blur-off");
+    };
+    var timelapse = function rotateImage() {
+       kamera.attr("src",'http://mezon.puslapiai.lt/timelapse/archive/'+today+'/'+paveiksliukai[index]);
+       if (index == paveiksliukai.length-1) { index = 0; }
+       else { index++; }
+    };
+    timelapse_timer = setInterval (timelapse, 200);
+    grayout_timer = setTimeout (grayout, 1000);
+  })
+ .mouseout(function() {
+    live_change_enabled = true;
+    clearTimeout(timelapse_timer);
+    clearTimeout(grayout_timer);
+    kamera.attr("src",kamera_original_src);
+    $("img.secondary-cams").not(this).removeClass("blur-on");
+    $("img.secondary-cams").not(this).addClass("blur-off");
+ });
+
+
+// atnaujinam paveiksliukus kas 2 minutes
+
+var change = function liveImage() {
+   if (live_change_enabled) {
+        //$("img.secondary-cams").fadeOut(500);
+
+        $('img.secondary-cams').attr('src',function(i,e){
+ 		 older=e;
+		 sid = Date.now() + Math.random();
+		 newer=older+"?"+sid;
+		 return newer;
+		});
+        $('a.mbox').attr('href',function(i,e){
+ 		 older=e;
+		 sid = Date.now() + Math.random();
+		 newer=older+"?"+sid;
+		 return newer;
+		});
+
+        //$("img.secondary-cams").fadeIn(500);
+   } 
+};
+
+change_timer = setInterval (change, 2*60*1000);
+
 
 </script>
 
