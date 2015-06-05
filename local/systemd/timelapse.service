@@ -1,0 +1,7 @@
+[Unit]
+Description=TimeLapse
+Wants=timelapse.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/make_timelapse
